@@ -3,25 +3,53 @@ body {
   font-family: sans-serif;
 }
 
+/* {
+  outline: 2px solid red;
+}
+*/
+
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border: 10px solid white; 
+  /* padding: 10px;
+                                solution de l'exercice
+                                padding au lieu de border */
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px 0;
+  padding: 20px 10px;
 }
+
+/* solution de l'exercice
+pour .title ajouter
+margin-top: 0;
+margin-bottom: 10px;
+pour .content ajouter
+margin-bottom: 10px;
+*/
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
 }
