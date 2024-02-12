@@ -9,13 +9,14 @@ body {
 }
 
 .header {
-  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  justify-content: space-between;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 8px;
+  
 }
 
 .profile-image {
@@ -33,6 +34,12 @@ body {
   font-style: italic;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 button {
   border: none;
   border-radius: 8px;
@@ -48,17 +55,10 @@ a {
 }
 
 ul {
-  display: flex;
   list-style-type: none;
+  display:flex;
+  align-items: center;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 16px;
-}
-
-.left-menu,
-.right-menu {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
